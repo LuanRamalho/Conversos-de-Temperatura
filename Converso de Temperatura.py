@@ -5,7 +5,7 @@ from tkinter import *
 
 def calcular():
     F = float(textbox1.get())
-    C = (F-32) * 5/6
+    C = (F-32) * 5/9
     final.set(str(round(C,1)) + " graus Celsius")
 
 # Interface Gráfica
